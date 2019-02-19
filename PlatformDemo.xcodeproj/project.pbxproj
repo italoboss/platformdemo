@@ -15,6 +15,12 @@
 		0C9824342216E4780064FC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9824322216E4780064FC0D /* Main.storyboard */; };
 		0C9824362216E47A0064FC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9824352216E47A0064FC0D /* Assets.xcassets */; };
 		0C9824392216E47A0064FC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9824372216E47A0064FC0D /* LaunchScreen.storyboard */; };
+		0C9824412216E69B0064FC0D /* TouchControlInputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9824402216E69B0064FC0D /* TouchControlInputNode.swift */; };
+		0C9824432216F4200064FC0D /* ControlInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9824422216F4200064FC0D /* ControlInputDelegate.swift */; };
+		0C9824452216F9080064FC0D /* PlayerControlComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9824442216F9080064FC0D /* PlayerControlComponent.swift */; };
+		0C982447221B27CD0064FC0D /* CharacterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C982446221B27CC0064FC0D /* CharacterNode.swift */; };
+		0C982449221B28650064FC0D /* NormalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C982448221B28650064FC0D /* NormalState.swift */; };
+		0C98244B221B34A60064FC0D /* PhysicsDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C98244A221B34A60064FC0D /* PhysicsDetection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		0C9824352216E47A0064FC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C9824382216E47A0064FC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C98243A2216E47A0064FC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9824402216E69B0064FC0D /* TouchControlInputNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchControlInputNode.swift; sourceTree = "<group>"; };
+		0C9824422216F4200064FC0D /* ControlInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlInputDelegate.swift; sourceTree = "<group>"; };
+		0C9824442216F9080064FC0D /* PlayerControlComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlComponent.swift; sourceTree = "<group>"; };
+		0C982446221B27CC0064FC0D /* CharacterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNode.swift; sourceTree = "<group>"; };
+		0C982448221B28650064FC0D /* NormalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalState.swift; sourceTree = "<group>"; };
+		0C98244A221B34A60064FC0D /* PhysicsDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsDetection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,12 @@
 				0C9824352216E47A0064FC0D /* Assets.xcassets */,
 				0C9824372216E47A0064FC0D /* LaunchScreen.storyboard */,
 				0C98243A2216E47A0064FC0D /* Info.plist */,
+				0C9824402216E69B0064FC0D /* TouchControlInputNode.swift */,
+				0C9824422216F4200064FC0D /* ControlInputDelegate.swift */,
+				0C9824442216F9080064FC0D /* PlayerControlComponent.swift */,
+				0C982446221B27CC0064FC0D /* CharacterNode.swift */,
+				0C982448221B28650064FC0D /* NormalState.swift */,
+				0C98244A221B34A60064FC0D /* PhysicsDetection.swift */,
 			);
 			path = PlatformDemo;
 			sourceTree = "<group>";
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9824412216E69B0064FC0D /* TouchControlInputNode.swift in Sources */,
+				0C982447221B27CD0064FC0D /* CharacterNode.swift in Sources */,
+				0C98244B221B34A60064FC0D /* PhysicsDetection.swift in Sources */,
 				0C98242F2216E4780064FC0D /* GameScene.swift in Sources */,
+				0C9824452216F9080064FC0D /* PlayerControlComponent.swift in Sources */,
 				0C9824312216E4780064FC0D /* GameViewController.swift in Sources */,
 				0C9824292216E4780064FC0D /* AppDelegate.swift in Sources */,
+				0C982449221B28650064FC0D /* NormalState.swift in Sources */,
+				0C9824432216F4200064FC0D /* ControlInputDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
